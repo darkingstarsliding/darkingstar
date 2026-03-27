@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI智能体助手</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">🤖</div>
+                <h1>AI智能体</h1>
+            </div>
+            
+            <div class="new-chat-btn">
+                <button class="btn-new">
+                    <span class="icon">+</span>
+                    新建对话
+                </button>
+            </div>
+            
+            <div class="chat-history">
+                <div class="history-section">
+                    <h3>今天</h3>
+                    <div class="history-item active">
+                        <span class="chat-title">欢迎对话</span>
+                        <span class="chat-time">刚刚</span>
+                    </div>
+                    <div class="history-item">
+                        <span class="chat-title">数据分析讨论</span>
+                        <span class="chat-time">14:30</span>
+                    </div>
+                </div>
+                
+                <div class="history-section">
+                    <h3>昨天</h3>
+                    <div class="history-item">
+                        <span class="chat-title">编程问题解答</span>
+                        <span class="chat-time">昨天</span>
+                    </div>
+                    <div class="history-item">
+                        <span class="chat-title">创意写作建议</span>
+                        <span class="chat-time">昨天</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="avatar">U</div>
+                    <span class="username">用户</span>
+                </div>
+                <div class="settings-btn">⚙️</div>
+            </div>
+        </aside>
+        
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 顶部导航 -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="sidebar-toggle">☰</button>
+                    <h2>欢迎对话</h2>
+                </div>
+                <div class="header-right">
+                    <div class="model-selector">
+                        <select class="model-select">
+                            <option value="gpt-4">GPT-4</option>
+                            <option value="gpt-3.5">GPT-3.5</option>
+                            <option value="claude">Claude</option>
+                            <option value="custom">自定义模型</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- 聊天区域 -->
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <!-- AI消息 -->
+                    <div class="message ai-message">
+                        <div class="message-avatar ai-avatar">🤖</div>
+                        <div class="message-content">
+                            <div class="message-sender">AI智能体</div>
+                            <div class="message-text">
+                                <p>你好!我是AI智能体助手,很高兴为你服务!</p>
+                                <p>我可以帮你完成以下任务:</p>
+                                <ul class="feature-list">
+                                    <li>💬 自然语言对话交流</li>
+                                    <li>📝 文本生成与编辑</li>
+                                    <li>🔍 信息检索与分析</li>
+                                    <li>💻 编程代码协助</li>
+                                    <li>🎨 创意设计与建议</li>
+                                </ul>
+                                <p>有什么我可以帮助你的吗?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 用户消息示例 -->
+                    <div class="message user-message">
+                        <div class="message-avatar user-avatar">U</div>
+                        <div class="message-content">
+                            <div class="message-sender">你</div>
+                            <div class="message-text">
+                                <p>请介绍一下你的功能</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 输入区域 -->
+            <div class="input-area">
+                <div class="input-container">
+                    <textarea 
+                        class="message-input" 
+                        placeholder="输入你的消息..." 
+                        rows="1"
+                    ></textarea>
+                    <div class="input-actions">
+                        <button class="action-btn attachment-btn" title="附件">📎</button>
+                        <button class="action-btn voice-btn" title="语音输入">🎤</button>
+                        <button class="send-btn" title="发送">
+                            <span>发送</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="input-footer">
+                    <span class="input-tip">按 Enter 发送,Shift+Enter 换行</span>
+                    <span class="char-count">0/2000</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
