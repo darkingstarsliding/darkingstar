@@ -1,0 +1,90 @@
+﻿d4b3d1e5-5ca5-48bb-9006-c409f914ae1e
+2026-03-04T13:51:54.211605
+{
+    "email": {
+        "title": "下周六来我家做客",
+        "content": "我给你准备了蛋糕，点心，另外想问问你有什么喜欢的水果吗？",
+        "sender_email": "Jennifer1996@example.com",
+        "sender": "Jennifer",
+        "id": "31566295-8dba-4dcd-b0dd-a72635b95da5",
+        "summary": "Jennifer邀请您下周六到她家做客，并询问您喜欢的水果以便准备。",
+        "response": "亲爱的Jennifer，\n\n非常感谢你的邀请，我下周六全天都有空，很期待去你家做客。关于水果，我最喜欢苹果和香蕉，麻烦你了！\n\n祝好，\n[你的名字]",
+        "tags": [
+            {
+                "name": "topic",
+                "value": "life"
+            },
+            {
+                "name": "significance",
+                "value": "medium"
+            },
+            {
+                "name": "need_response",
+                "value": "yes"
+            }
+        ]
+    },
+    "draft_response": "亲爱的Jennifer，\n\n非常感谢你的邀请，我下周六全天都有空，很期待去你家做客。关于水果，我最喜欢苹果和香蕉，麻烦你了！\n\n祝好，\n[你的名字]",
+    "new_tags": null
+}
+
+3829c2e5-16bf-4412-ab8b-7f6f3535f2fa
+2026-03-04T14:15:05.229970
+{
+    "email": {
+        "title": "下周六来我家做客",
+        "content": "我给你准备了蛋糕，点心，另外想问问你有什么喜欢的水果吗？",
+        "sender_email": "Jennifer1996@example.com",
+        "sender": "Jennifer",
+        "id": "593a4fc5-14f3-4697-aa59-b920c9a25b1b",
+        "summary": "Jennifer邀请您下周六到她家做客，并询问您喜欢什么水果。",
+        "response": "亲爱的Jennifer，\n\n非常感谢你的邀请！我下周六全天都有空，很期待去你家做客。至于水果，我最喜欢苹果和香蕉了。\n\n到时候见！\n\n祝好，\n[你的名字]",
+        "tags": [
+            {
+                "name": "topic",
+                "value": "life"
+            },
+            {
+                "name": "significance",
+                "value": "medium"
+            },
+            {
+                "name": "need_response",
+                "value": "yes"
+            }
+        ]
+    },
+    "draft_response": "亲爱的Jennifer，\n\n非常感谢你的邀请！我下周六全天都有空，很期待去你家做客。至于水果，我最喜欢苹果和香蕉了。\n\n到时候见！\n\n祝好，\n[你的名字]",
+    "new_tags": null
+}
+
+91d6245a-4184-4974-8a08-408dbbc18d94
+2026-03-04T14:15:16.942490
+{
+    "email": {
+        "title": "下周六来我家做客",
+        "content": "我给你准备了蛋糕，点心，另外想问问你有什么喜欢的水果吗？",
+        "sender_email": "Jennifer1996@example.com",
+        "sender": "Jennifer",
+        "id": "c4312b9f-696d-4dbb-bbe0-dd7aa62581b5",
+        "summary": "Jennifer邀请您下周六到她家做客，并询问您喜欢的水果。她已经为您准备了蛋糕和点心。",
+        "response": "亲爱的Jennifer，\n\n非常感谢你的邀请！我下周六全天都有空，很高兴能去你家做客。关于水果，我最喜欢苹果和香蕉了。\n\n期待见面！\n\n祝好，\n[你的名字]",
+        "tags": [
+            {
+                "name": "topic",
+                "value": "life"
+            },
+            {
+                "name": "significance",
+                "value": "medium"
+            },
+            {
+                "name": "need_response",
+                "value": "yes"
+            }
+        ]
+    },
+    "draft_response": "亲爱的Jennifer，\n\n非常感谢你的邀请！我下周六全天都有空，很高兴能去你家做客。关于水果，我最喜欢苹果和香蕉了。\n\n期待见面！\n\n祝好，\n[你的名字]",
+    "new_tags": null
+}
+
